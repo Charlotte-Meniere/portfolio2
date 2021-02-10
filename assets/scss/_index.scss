@@ -1,0 +1,145 @@
+.neon-banner {
+  background-image: url(../images/neon-back.png);
+  height: 130vh;;
+  background-size: cover;
+  nav {
+    @include flex;
+    background-color: black;
+    img {
+      height: 8vh;
+    }
+    .hamburger {
+      display: none;
+      color: white;
+    }
+    .basique {
+      display: flex;
+      right: 2px;
+      top: 60px;
+      background-color: black;
+    }
+    div {
+      @include flex;
+      width: 30%;
+      a {
+        list-style-type: none;
+        @include font(white);
+        text-decoration: none;
+        width: auto;
+        display: block;
+      }
+    }
+  }
+  .logo {
+    @include flex(space-between, center);
+    height: 110vh;
+    .txt {
+      @include flex(space-between, center, column);
+      width: 50%;
+      #portfolio {
+        @include font(white, "neon-title", 8em);
+        line-height: 0em;
+      }
+      #date {
+        @include font(white, "neon", 3em);
+        margin: 0;
+        line-height: 2em;
+      }
+      #formation {
+        @include font(white, "neon-title", 1em);
+        margin: 0;
+        line-height: 1em;
+      }
+    }
+
+    div {
+      .profil {
+        animation: rotation 180s infinite linear;
+      }
+
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    }
+
+    img {
+      width: 70%;
+      @include center;
+    }
+  }
+}
+// un mot de l'auteur
+.mot {
+  @include font;
+  width: 50%;
+  @include center;
+  padding: 30px;
+  .title {
+    @include font(black, "neon-title", 30px);
+    line-height: 60px;
+    border-bottom: black solid 10px;
+    padding-bottom: 30px;
+  }
+  article {
+    .border-left {
+      border-left: black solid 10px;
+      margin-left: 5vw;
+      text-align: left;
+    }
+    .rotate {
+      width: 100px;
+      animation: rotation 20s infinite linear;
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+    }
+  }
+}
+
+// banner
+.ground-banner {
+  background-image: url(../images/ground-banner.jpg);
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .aimez {
+    background-image: url(../images/btn-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include flex(center, center);
+    p {
+      @include font(pink, "neon-title", 4vw);
+      @include center;
+      line-height: 1em;
+      width: 60%;
+      margin-top: 5%;
+    }
+  }
+}
+
+// footer
+.footer {
+  background-color: black;
+  height: 10vh;
+  @include flex;
+  @include font(white);
+}

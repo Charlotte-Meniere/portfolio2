@@ -1,0 +1,89 @@
+// navbarre
+.banner-top {
+  nav {
+    @include flex;
+    background-color: black;
+    .hamburger {
+      display: none;
+      color: white;
+    }
+    .basique {
+      display: flex;
+      right: 5vw;
+      top: 60px;
+      width: 200px;
+      background-color: black;
+    }
+    img {
+      height: 8vh;
+    }
+    div {
+      @include flex;
+      width: 30%;
+      a {
+        list-style-type: none;
+        @include font(white);
+        text-decoration: none;
+      }
+    }
+  }
+}
+// titre
+section {
+  .title {
+    @include font(black, "neon-title", 30px);
+    line-height: 15vh;
+    border-bottom: black solid 10px;
+    width: 30vw;
+    text-align: center;
+    @include center;
+    margin-bottom: 20px;
+  }
+}
+.container {
+  height: 220vh;
+  article {
+    width: 60vw;
+    height: 65vh;
+    @include center;
+    @include flex(center, center);
+    div {
+      height: 30vh;
+      a{
+        position: absolute;
+        text-decoration: none;
+        @include font;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 7px 3px 10px 0px black;
+
+        
+      }
+      img {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 300px;
+        box-shadow: 10px 10px 10px 0px pink;
+      }
+    }
+    .texte {
+      height: 30vh;
+      .projo {
+        @include font(black, "neon-title", 30px);
+        line-height: 40px;
+      }
+      p {
+        @include font(black, "neon");
+      }
+    }
+  }
+}
+
+// footer
+.footer {
+  background-color: black;
+  height: 10vh;
+  @include flex;
+  @include font(white);
+}

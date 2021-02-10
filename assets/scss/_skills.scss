@@ -1,0 +1,133 @@
+// navbarre
+.banner-top {
+  nav {
+    @include flex;
+    background-color: black;
+    .hamburger {
+      display: none;
+      color: white;
+    }
+    .basique {
+      display: flex;
+      right: 2px;
+      top: 60px;
+      width: 60vw;
+      background-color: black;
+    }
+    img {
+      height: 8vh;
+    }
+    div {
+      @include flex;
+      width: 30%;
+      a {
+        list-style-type: none;
+        @include font(white);
+        text-decoration: none;
+      }
+    }
+  }
+}
+// compétences
+.cptc {
+  div {
+    border-left: 20px solid black;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    padding-left: 20px;
+    width: 50vw;
+    height: 30vh;
+
+    h2 {
+      @include font(black, "neon-title", 30px);
+      line-height: 30px;
+    }
+    p {
+      @include font;
+    }
+  }
+  .hands {
+    @include flex(flex-end);
+    img {
+      width: 60vw;
+    }
+  }
+}
+.losange {
+  background-image: url(../images/back-neon2.png);
+  height: 100vh;
+  background-size: cover;
+  @include flex(center, center, row);
+  article {
+    @include flex(space-between, space-between);
+    width: 40vw;
+    height: 80vh;
+
+    div {
+      @include flex(space-around, start, column);
+      @include font(white);
+      width: 20vw;
+      h3 {
+        @include font(white, "neon-title", 30px);
+        line-height: 30px;
+      }
+      p {
+        margin-left: 30px;
+      }
+      img {
+        width: 20vw;
+      }
+    }
+  }
+}
+// branches
+.branches {
+  @include flex;
+  height: 120vh;
+  .txt {
+    width: 40vw;
+    .autres {
+      @include font(black, "neon-title", 50px);
+      line-height: 8vh;
+    }
+    .texte {
+      padding-left: 30px;
+      border-left: 10px solid black;
+    }
+  }
+  .images {
+    width: 60vw;
+    height: 70vh;
+    @include flex;
+    .colonnes {
+      height: 100%;
+      width: 14vw;
+      img {
+        width: 100%;
+      }
+
+      .conteneur-image-low {
+        width: 180px;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/btn-back.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        a {
+          text-decoration: none;
+          @include font(white);
+        }
+      }
+    }
+  }
+}
+// footer
+.footer {
+  background-color: black;
+  height: 10vh;
+  @include flex;
+  @include font(white);
+}

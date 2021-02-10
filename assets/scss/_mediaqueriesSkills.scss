@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px) {
+  .cptc {
+    div {
+      height: 40vh;
+    }
+  }
+}
+  .losange {
+    height: 150vh;
+    @include flex(center, center, row);
+    .square-bottom {
+      width: 40vw;
+      div {
+        @include flex(space-around, center, column);
+        p {
+          margin-left: 0px;
+        }
+      }
+    }
+    .square-top {
+      width: 40vw;
+      div {
+        @include flex(space-around, center, column);
+        p {
+          margin-left: 0px;
+        }
+      }
+    
+  }
+  .branches {
+    height: 150vh;
+    @include flex(space-evenly, center, column);
+  }
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .losange {
+    height: 350vh;
+    @include flex(space-around, center, column);
+  }
+  .banner-top {
+    nav {
+      .hamburger {
+        display: flex;
+        position: relative;
+      }
+      .basique {
+        position: absolute;
+        right: 15vw;
+        width: 200px;
+        display: none;
+        position: absolute;
+        @include flex(center, center, column);
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .cptc {
+    height: 60vh;
+    margin: 20px;
+    div {
+      margin-top: 10vh;
+    }
+  }
+  .losange {
+    height: 280vh;
+    .square-top{
+      width: 80vw;
+    }
+    .square-bottom{
+      width: 80vw;
+    }
+    article {
+      width: 90vw;
+      .theme {
+        @include flex(space-around, start, row);
+        width: 70vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cptc {
+    height: 120vh;
+    div {
+      margin-top: 30vh;
+    }
+    .hands{
+      margin-top: 50vw;
+    }
+  }
+  .losange {
+    height: 430vh;
+    article {
+      @include flex(center, center, column);
+      div {
+        width: 70vw;
+      }
+      .theme {
+        @include flex(space-around, center, column);
+      }
+    }
+  }
+  .branches {
+    height: 200vh;
+
+    .images {
+      @include flex(space-around, center, column);
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .cptc {
+    height: 120vh;
+    div {
+      margin-top: 30vh;
+    }
+    .hands{
+      margin-top: 50vw;
+    }
+  }
+  .losange {
+    height: 310vh;
+    article {
+      @include flex(center, center, column);
+      div {
+        width: 70vw;
+      }
+      .theme {
+        @include flex(space-around, center, column);
+      }
+    }
+  }
+  .branches {
+    height: 230vh;
+    width: 80vw;
+    @include flex(space-around, center,column);
+    .txt{
+      width: 80vw
+    }
+
+    .images {
+      @include flex(space-around, center, column);
+    }
+  }
+}

@@ -1,0 +1,79 @@
+@media screen and (max-width: 1300px) {
+  .container {
+    height: 220vh;
+    article {
+      width: 60vw;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 390vh;
+    article {
+      width: 60vw;
+      height: 130vh;
+      @include flex(center, center, column);
+      div {
+        margin-bottom: 20vh;
+      }
+    }
+    .reverse {
+      @include flex(center, center, column-reverse);
+    }
+  }
+}
+@media screen and (max-width: 970px) {
+  .container {
+    height: 420vh;
+    article {
+      width: 60vw;
+      height: 140vh;
+      @include flex(center, center, column);
+      div {
+        margin-bottom: 20vh;
+      }
+    }
+    .reverse {
+      @include flex(center, center, column-reverse);
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    height: 450vh;
+    article {
+      width: 90vw;
+      margin-bottom: 0vh;
+      height: 150vh;
+      div {
+        height: 30vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 570px) {
+  .container {
+    height: 490vh;
+    article {
+      width: 80vw;
+      margin-bottom: 0vh;
+      height: 160vh;
+      div {
+        height: 70vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    height: 550vh;
+    article {
+      width: 80vw;
+      margin-bottom: 0vh;
+      height: 180vh;
+      div {
+        height: 150vw;
+      }
+    }
+  }
+}

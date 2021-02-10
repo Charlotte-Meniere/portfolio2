@@ -1,0 +1,917 @@
+@font-face {
+  font-family: "neon";
+  src: url(../fonts/Neon.ttf);
+}
+@font-face {
+  font-family: "neon-title";
+  src: url(../fonts/NEON-ABSOLUTE-SANS1.ttf);
+}
+.neon-banner {
+  background-image: url(../images/neon-back.png);
+  height: 110vh;
+  background-size: cover;
+}
+.neon-banner nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+}
+.neon-banner nav img {
+  height: 8vh;
+}
+.neon-banner nav .hamburger {
+  display: none;
+  color: white;
+}
+.neon-banner nav .basique {
+  display: flex;
+  right: 2px;
+  top: 60px;
+  background-color: black;
+}
+.neon-banner nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+}
+.neon-banner nav div a {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+  text-decoration: none;
+  width: auto;
+  display: block;
+}
+.neon-banner .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+}
+.neon-banner .logo .txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.neon-banner .logo .txt #portfolio {
+  font-size: 8em;
+  color: white;
+  font-family: "neon-title";
+  line-height: 0em;
+}
+.neon-banner .logo .txt #date {
+  font-size: 3em;
+  color: white;
+  font-family: "neon";
+  margin: 0;
+  line-height: 2em;
+}
+.neon-banner .logo .txt #formation {
+  font-size: 1em;
+  color: white;
+  font-family: "neon-title";
+  margin: 0;
+  line-height: 1em;
+}
+.neon-banner .logo div .profil {
+  animation: rotation 180s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.neon-banner .logo img {
+  width: 70%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mot {
+  font-size: 20px;
+  color: black;
+  font-family: "neon";
+  width: 50%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+.mot .title {
+  font-size: 30px;
+  color: black;
+  font-family: "neon-title";
+  line-height: 60px;
+  border-bottom: black solid 10px;
+  padding-bottom: 30px;
+}
+.mot article .border-left {
+  border-left: black solid 10px;
+  margin-left: 5vw;
+  text-align: left;
+}
+.mot article .rotate {
+  width: 100px;
+  animation: rotation 20s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.ground-banner {
+  background-image: url(../images/ground-banner.jpg);
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ground-banner .aimez {
+  background-image: url(../images/btn-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.ground-banner .aimez p {
+  font-size: 4vw;
+  color: pink;
+  font-family: "neon-title";
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1em;
+  width: 60%;
+  margin-top: 5%;
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+}
+
+.banner-top nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+}
+.banner-top nav .hamburger {
+  display: none;
+  color: white;
+}
+.banner-top nav .basique {
+  display: flex;
+  right: 5vw;
+  top: 60px;
+  width: 200px;
+  background-color: black;
+}
+.banner-top nav img {
+  height: 8vh;
+}
+.banner-top nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+}
+.banner-top nav div a {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+  text-decoration: none;
+}
+
+.formulaire {
+  background-image: url(../images/open-neon-sign-at-night.jpg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+  color: white;
+  font-family: "neon";
+}
+.formulaire .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formulaire .mail {
+  width: 41vw;
+}
+.formulaire input {
+  width: 20vw;
+  height: 30px;
+  font-size: 20px;
+  color: grey;
+  font-family: "neon";
+  margin-bottom: 15px;
+}
+.formulaire .label {
+  font-size: 20px;
+  color: grey;
+  font-family: "neon";
+  width: 41vw;
+}
+.formulaire .submit {
+  text-decoration: none;
+  background-image: url(../images/btn-back.png);
+}
+
+.rsx {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-top: 5%;
+  height: 30vh;
+}
+.rsx div {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 20vw;
+  font-size: 20px;
+  color: black;
+  font-family: "neon";
+}
+.rsx div .round {
+  background-image: url(../images/round.png);
+  height: 50px;
+  width: 60px;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.rsx div .round i {
+  color: purple;
+  position: absolute;
+  top: 15px;
+  width: 20px;
+  right: 20px;
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+}
+
+.banner-top nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+}
+.banner-top nav .hamburger {
+  display: none;
+  color: white;
+}
+.banner-top nav .basique {
+  display: flex;
+  right: 5vw;
+  top: 60px;
+  width: 200px;
+  background-color: black;
+}
+.banner-top nav img {
+  height: 8vh;
+}
+.banner-top nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+}
+.banner-top nav div a {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+  text-decoration: none;
+}
+
+section .title {
+  font-size: 30px;
+  color: black;
+  font-family: "neon-title";
+  line-height: 15vh;
+  border-bottom: black solid 10px;
+  width: 30vw;
+  text-align: center;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  height: 200vh;
+}
+.container article {
+  width: 40vw;
+  height: 55vh;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container article div {
+  height: 30vh;
+}
+.container article div img {
+  width: 300px;
+}
+.container article .texte {
+  height: 30vh;
+}
+.container article .texte .projo {
+  font-size: 30px;
+  color: black;
+  font-family: "neon-title";
+  line-height: 40px;
+}
+.container article .texte p {
+  font-size: 20px;
+  color: black;
+  font-family: "neon";
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+}
+
+.banner-top nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+}
+.banner-top nav .hamburger {
+  display: none;
+  color: white;
+}
+.banner-top nav .basique {
+  display: flex;
+  right: 2px;
+  top: 60px;
+  width: 60vw;
+  background-color: black;
+}
+.banner-top nav img {
+  height: 8vh;
+}
+.banner-top nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+}
+.banner-top nav div a {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+  text-decoration: none;
+}
+
+.cptc div {
+  border-left: 20px solid black;
+  margin-top: 20vh;
+  margin-left: 10vw;
+  padding-left: 20px;
+  width: 50vw;
+  height: 30vh;
+}
+.cptc div h2 {
+  font-size: 30px;
+  color: black;
+  font-family: "neon-title";
+  line-height: 30px;
+}
+.cptc div p {
+  font-size: 20px;
+  color: black;
+  font-family: "neon";
+}
+.cptc .hands {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.cptc .hands img {
+  width: 60vw;
+}
+
+.losange {
+  background-image: url(../images/back-neon2.png);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.losange article {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-direction: row;
+  width: 40vw;
+  height: 80vh;
+}
+.losange article div {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+  width: 20vw;
+}
+.losange article div h3 {
+  font-size: 30px;
+  color: white;
+  font-family: "neon-title";
+  line-height: 30px;
+}
+.losange article div p {
+  margin-left: 30px;
+}
+.losange article div img {
+  width: 20vw;
+}
+
+.branches {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  padding: 20px;
+}
+.branches .txt {
+  width: 40vw;
+}
+.branches .txt .autres {
+  font-size: 50px;
+  color: black;
+  font-family: "neon-title";
+  line-height: 8vh;
+}
+.branches .txt .texte {
+  padding-left: 30px;
+  border-left: 10px solid black;
+}
+.branches .images {
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.branches .images .colonnes {
+  height: 100%;
+  width: 14vw;
+}
+.branches .images .colonnes img {
+  width: 100%;
+}
+.branches .images .colonnes .conteneur-image-low {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/btn-back.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.branches .images .colonnes .conteneur-image-low a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+}
+
+.footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  font-family: "neon";
+}
+
+@media screen and (max-width: 1400px) {
+  .neon-banner article {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .neon-banner {
+    height: 110vh;
+  }
+  .neon-banner .portraitIndex {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .neon-banner .portraitIndex img {
+    width: 50%;
+  }
+
+  .ground-banner {
+    height: 30vh;
+  }
+  .ground-banner .aimer {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .neon-banner {
+    height: 90vh;
+  }
+  .neon-banner nav .hamburger {
+    display: flex;
+  }
+  .neon-banner nav .basique {
+    display: none;
+    position: absolute;
+  }
+  .neon-banner article {
+    height: 70vh;
+  }
+  .neon-banner article .txt #portfolio {
+    font-size: 5em;
+    color: white;
+    font-family: "neon-title";
+  }
+
+  .ground-banner {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 501px) {
+  .neon-banner {
+    height: 80vh;
+  }
+  .neon-banner article {
+    height: 60vh;
+  }
+  .neon-banner article .txt #portfolio {
+    font-size: 3em;
+    color: white;
+    font-family: "neon-title";
+  }
+
+  .mot {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .neon-banner {
+    height: 60vh;
+  }
+  .neon-banner article {
+    height: 40vh;
+  }
+  .neon-banner article .txt #portfolio {
+    font-size: 3em;
+    color: white;
+    font-family: "neon-title";
+  }
+
+  .mot {
+    width: 70%;
+  }
+  .mot .title {
+    font-size: 30px;
+    color: black;
+    font-family: "neon-title";
+  }
+
+  .ground-banner {
+    height: 30vh;
+  }
+  .ground-banner .aimez {
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner-top div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-top .mail {
+    width: 60vw;
+  }
+  .banner-top input {
+    width: 60vw;
+  }
+  .banner-top .label {
+    width: 60vw;
+  }
+
+  .rsx {
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 950px) {
+  section nav .hamburger {
+    display: flex;
+  }
+  section nav .basique {
+    display: none;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cptc div {
+    height: 40vh;
+  }
+
+  .losange {
+    height: 200vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .losange .square-bottom {
+    width: 60vw;
+  }
+  .losange .square-bottom div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .losange .square-bottom div p {
+    margin-left: 0px;
+  }
+  .losange .square-bottom div img {
+    width: 40vw;
+  }
+  .losange .square-top {
+    width: 60vw;
+  }
+  .losange .square-top div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .losange .square-top div p {
+    margin-left: 0px;
+  }
+  .losange .square-top div img {
+    width: 40vw;
+  }
+
+  .branches {
+    height: 130vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .branches .images .colonnes {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cptc {
+    height: 70vh;
+  }
+
+  .losange {
+    height: 190vh;
+  }
+
+  .branches .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .branches .images .colonnes {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 960px) {
+  .losange {
+    height: 220vh;
+  }
+
+  .banner-top nav .hamburger {
+    display: flex;
+    position: relative;
+  }
+  .banner-top nav .basique {
+    position: absolute;
+    right: 15vw;
+    width: 200px;
+    display: none;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cptc {
+    height: 60vh;
+  }
+  .cptc div {
+    margin-top: 10vh;
+  }
+
+  .losange {
+    height: 260vh;
+  }
+  .losange article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .losange article .theme {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    width: 70vw;
+  }
+
+  .branches .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cptc {
+    height: 50vh;
+  }
+  .cptc div {
+    margin-top: 10vh;
+  }
+
+  .losange {
+    height: 210vh;
+  }
+  .losange article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .losange article div {
+    width: 70vw;
+  }
+  .losange article .theme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .branches {
+    height: 200vh;
+  }
+  .branches .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    height: 180vh;
+  }
+  .container article {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 970px) {
+  .container {
+    height: 300vh;
+  }
+  .container article {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container article div {
+    margin-bottom: 10vh;
+  }
+  .container .reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    height: 150vh;
+  }
+  .container article {
+    width: 80vw;
+    margin-bottom: 0vh;
+    height: 50vh;
+  }
+  .container article div {
+    height: 30vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

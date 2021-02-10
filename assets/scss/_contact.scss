@@ -1,0 +1,95 @@
+// navbarre
+.banner-top {
+  nav {
+    @include flex;
+    background-color: black;
+    .hamburger {
+      display: none;
+      color: white;
+    }
+    .basique {
+      display: flex;
+      right: 5vw;
+      top: 60px;
+      width: 200px;
+      background-color: black;
+    }
+    img {
+      height: 8vh;
+    }
+
+    div {
+      @include flex;
+      width: 30%;
+      a {
+        list-style-type: none;
+        @include font(white);
+        text-decoration: none;
+      }
+    }
+  }
+}
+// open formulaires
+.formulaire {
+  background-image: url(../images/open-neon-sign-at-night.jpg);
+  background-position: center;
+  height: 130vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex(center, center, column);
+  @include font(white, "neon", 30px);
+  .article {
+    @include flex(center, center, column);
+  }
+  .mail {
+    width: 41vw;
+  }
+  input {
+    width: 20vw;
+    height: 30px;
+    @include font(grey, "neon");
+    margin-bottom: 15px;
+  }
+  .label {
+    @include font(grey, "neon");
+    width: 41vw;
+  }
+  .submit {
+    text-decoration: none;
+    background-image: url(../images/btn-back.png);
+  }
+}
+.rsx {
+  @include flex(space-around, flex-start, row);
+  padding-top: 5%;
+  height: 50vh;
+  div {
+    @include center;
+    width: 20vw;
+    @include font;
+    .round {
+      background-image: url(../images/round.png);
+      height: 50px;
+      width: 60px;
+      background-position: center;
+      background-size: contain;
+      @include center;
+      position: relative;
+      i {
+        color: purple;
+        position: absolute;
+        top: 15px;
+        width: 20px;
+        right: 20px;
+      }
+    }
+  }
+}
+
+// footer
+.footer {
+  background-color: black;
+  height: 10vh;
+  @include flex;
+  @include font(white);
+}

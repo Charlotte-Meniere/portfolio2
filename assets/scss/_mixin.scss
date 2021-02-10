@@ -1,0 +1,18 @@
+@mixin font($color: black, $font-family: "neon", $size: 20px) {
+  font-size: $size;
+  color: $color;
+  font-family: $font-family;
+}
+
+@mixin flex($justify: space-around, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin center {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}

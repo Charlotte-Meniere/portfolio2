@@ -1,0 +1,31 @@
+Please take a note of the details below these are needed to access your account
+Your order summary
+DescriptionAmount
+Free Hosting
+$0.00Item price: $0.00Item total$0.00
+Total $0.00
+Your Account Details
+
+Your account is now active.
+Main Hosting Details
+Control panel username
+b15_27796011
+Control panel password	**********
+Control panel URL
+cpanel.byethost15.com
+MySQL username
+b15_27796011
+MySQL password
+**********
+MySQL hostname
+sql206.byethost15.com
+FTP username
+b15_27796011
+FTP password
+**********
+FTP host name	ftp.byethost15.com
+
+
+Your Website URL's
+Home page
+http://lacabana-chachou.byethost15.com

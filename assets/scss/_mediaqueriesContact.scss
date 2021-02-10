@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+  .banner-top {
+    div {
+      @include flex(center, center, column);
+    }
+    .formulaire{
+      height: 150vh;
+    }
+    .mail {
+      width: 60vw;
+    }
+    input {
+      width: 60vw;
+    }
+    .label {
+      width: 60vw;
+    }
+  }
+  .rsx {
+    height: 150vh;
+    @include flex(space-around, flex-start, column);
+    div {
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .formulaire{
+    height: 200vh;
+  }
+  .rsx{
+    height: 200vh;
+  }
+  section {
+    nav {
+      .hamburger {
+        display: flex;
+      }
+      .basique {
+        display: none;
+        position: absolute;
+      }
+    }
+  }
+}

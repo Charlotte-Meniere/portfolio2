@@ -1,0 +1,92 @@
+@media screen and (max-width: 1400px) {
+  .neon-banner {
+    article {
+      padding: 30px;
+      height: 150vh;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .neon-banner {
+    height: 150vh;
+    .logo{
+      margin-top: 10vh;
+      @include flex(center, center, column-reverse);
+    div{
+      width: 50vw;
+    }
+    }
+
+    .portraitIndex {
+      height: 90vh;
+      @include flex(space-around, center, column-reverse);
+      img {
+        width: 50%;
+      }
+    }
+  }
+  .ground-banner {
+    height: 50vh;
+    .aimer {
+      width: 80vw;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .neon-banner {
+    height: 130vh;
+    .logo{
+      margin-top: 0vh;
+      .txt{
+        #portfolio{
+          @include font(white,"neon-title",90px)
+        }
+      }
+    }
+    nav {
+      .hamburger {
+        display: flex;
+      }
+      .basique {
+        display: none;
+        position: absolute;
+      }
+    }
+    article {
+      height: 70vh;
+      .txt {
+        #portfolio {
+          @include font(white, "neon-title", 5em);
+        }
+      }
+    }
+  }
+  .ground-banner {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .neon-banner {
+    height: 120vh;
+    .logo{
+      margin-top: 0vh;
+      .txt{
+        #portfolio{
+          @include font(white,"neon-title",60px)
+        }
+      }
+    article {
+      height: 60vh;
+      .txt {
+        #portfolio {
+          @include font(white, "neon-title", 3em);
+        }
+  .mot {
+    .title{
+      width: 80%;
+    }
+    width: 80%;
+  }}}}}}
