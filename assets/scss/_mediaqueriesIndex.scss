@@ -14,8 +14,19 @@
       margin-top: 0vh;
       height: 80vh;
       @include flex(center, center, column-reverse);
-      div {
-        width: 50vw;
+      .txt {
+        #portfolio {
+          @include font(white, "neon-title", 15em);
+        }
+        #date {
+          @include font(white, "neon", 3em);
+        }
+        #formation {
+          @include font(white, "neon-title", 1em);
+        }
+        div {
+          width: 50vw;
+        }
       }
     }
 
