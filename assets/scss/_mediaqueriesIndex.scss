@@ -9,13 +9,14 @@
 
 @media screen and (max-width: 1100px) {
   .neon-banner {
-    height: 150vh;
-    .logo{
-      margin-top: 10vh;
+    height: 100vh;
+    .logo {
+      margin-top: 0vh;
+      height: 80vh;
       @include flex(center, center, column-reverse);
-    div{
-      width: 50vw;
-    }
+      div {
+        width: 50vw;
+      }
     }
 
     .portraitIndex {
@@ -37,11 +38,11 @@
 @media screen and (max-width: 900px) {
   .neon-banner {
     height: 130vh;
-    .logo{
+    .logo {
       margin-top: 0vh;
-      .txt{
-        #portfolio{
-          @include font(white,"neon-title",90px)
+      .txt {
+        #portfolio {
+          @include font(white, "neon-title", 90px);
         }
       }
     }
@@ -71,22 +72,27 @@
 @media screen and (max-width: 500px) {
   .neon-banner {
     height: 120vh;
-    .logo{
+    .logo {
       margin-top: 0vh;
-      .txt{
-        #portfolio{
-          @include font(white,"neon-title",60px)
-        }
-      }
-    article {
-      height: 60vh;
       .txt {
         #portfolio {
-          @include font(white, "neon-title", 3em);
+          @include font(white, "neon-title", 60px);
         }
-  .mot {
-    .title{
-      width: 80%;
+      }
+      article {
+        height: 60vh;
+        .txt {
+          #portfolio {
+            @include font(white, "neon-title", 3em);
+          }
+          .mot {
+            .title {
+              width: 80%;
+            }
+            width: 80%;
+          }
+        }
+      }
     }
-    width: 80%;
-  }}}}}}
+  }
+}

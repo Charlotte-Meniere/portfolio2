@@ -58,6 +58,10 @@
     text-decoration: none;
     background-image: url(../images/btn-back.png);
   }
+  .warning {
+    background-color: rgba(0, 0, 0, 0.445);
+    @include font(white, "neon", 15px);
+  }
 }
 .rsx {
   @include flex(space-around, flex-start, row);
