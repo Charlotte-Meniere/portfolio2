@@ -98,7 +98,7 @@
   .images {
     width: 60vw;
     height: 70vh;
-    @include flex;
+    @include flex(center, center);
     .colonnes {
       height: 100%;
       width: 14vw;
@@ -107,8 +107,7 @@
       }
 
       .conteneur-image-low {
-        width: 180px;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;

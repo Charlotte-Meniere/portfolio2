@@ -182,6 +182,10 @@
   font-family: "neon";
 }
 
+* {
+  text-decoration: none;
+}
+
 .banner-top nav {
   display: flex;
   justify-content: space-around;
@@ -282,6 +286,10 @@
   font-size: 20px;
   color: black;
   font-family: "neon";
+}
+.rsx div .lien {
+  text-decoration: none;
+  color: pink;
 }
 .rsx div .round {
   background-image: url(../images/round.png);
@@ -554,7 +562,7 @@ section .title {
   width: 60vw;
   height: 70vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
 }
@@ -566,7 +574,6 @@ section .title {
   width: 100%;
 }
 .branches .images .colonnes .conteneur-image-low {
-  width: 180px;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -613,7 +620,22 @@ section .title {
     align-items: center;
     flex-direction: column-reverse;
   }
-  .neon-banner .logo div {
+  .neon-banner .logo .txt #portfolio {
+    font-size: 15em;
+    color: white;
+    font-family: "neon-title";
+  }
+  .neon-banner .logo .txt #date {
+    font-size: 3em;
+    color: white;
+    font-family: "neon";
+  }
+  .neon-banner .logo .txt #formation {
+    font-size: 1em;
+    color: white;
+    font-family: "neon-title";
+  }
+  .neon-banner .logo .txt div {
     width: 50vw;
   }
   .neon-banner .portraitIndex {

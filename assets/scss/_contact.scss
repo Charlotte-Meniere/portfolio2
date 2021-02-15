@@ -1,4 +1,7 @@
 // navbarre
+* {
+  text-decoration: none;
+}
 .banner-top {
   nav {
     @include flex;
@@ -71,6 +74,10 @@
     @include center;
     width: 20vw;
     @include font;
+    .lien {
+      text-decoration: none;
+      color: pink;
+    }
     .round {
       background-image: url(../images/round.png);
       height: 50px;
